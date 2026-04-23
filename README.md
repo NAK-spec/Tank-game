@@ -2,14 +2,16 @@
 
 A simple multiplayer tank battle game built using Python and Pygame. Players control tanks, shoot bullets, and try to knock opponents off the map to win.
 
-🚀** Features**
+🚀**Features**
+
 3-player gameplay
 Tank movement in all directions
 Shooting mechanics
 Collision detection
 Explosion effects
 Win condition (push opponents off the cliff)
-🎮** Controls**
+🎮**Controls**
+
 Player 1
 Move: W A S D
 Shoot: SPACE
@@ -19,7 +21,7 @@ Shoot: ENTER
 Player 3
 Move: I J K L
 Shoot: U
-🖥️** How to Run**
+🖥️**How to Run**
 
 Install Pygame:
 
@@ -30,6 +32,7 @@ Run the game:
 python tank_game.py
 
 🧠 **How It Works**
+
 Each player controls a tank using different keys
 Players shoot bullets upward
 When a bullet hits a tank:
