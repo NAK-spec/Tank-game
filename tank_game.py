@@ -88,7 +88,7 @@ while running:
     for bullet in bullets[:]:
         bullet["y"] -= bullet_speed
         if bullet["y"] < 0:
-            bullets.remove(bullet)
+            bullets.remove(bullet)# small update
         else:
             for player in players:
                 if player != bullet["owner"] and player["rect"].collidepoint(bullet["x"], bullet["y"]):
