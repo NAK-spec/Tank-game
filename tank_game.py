@@ -118,7 +118,7 @@ while running:
             winner = [p for p in players if p != player][0]
             running = False
 
-    pygame.display.update()
+    pygame.display.update() # small update
 
 # Display winner
 screen.fill((0,0,0))
