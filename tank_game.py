@@ -10,7 +10,7 @@ clock = pygame.time.Clock()
 
 # Load images
 tank1_img = pygame.image.load("tankBlue.png")
-tank2_img = pygame.image.load("tankGreen.png")
+tank2_img = pygame.image.load("tankGreen.png")# new update
 tank3_img = pygame.image.load("tankRed.png")
 bullet_img = pygame.image.load("bulletBlue.png")
 bullet_img = pygame.image.load("bulletRed.png")
