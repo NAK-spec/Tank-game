@@ -99,7 +99,7 @@ while running:
 
     # Draw tanks
     for player in players:
-        screen.blit(player["img"], (player["rect"].x, player["rect"].y))
+        screen.blit(player["img"], (player["rect"].x, player["rect"].y)) # small update
 
     # Draw bullets
     for bullet in bullets:
